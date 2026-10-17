@@ -1,0 +1,13 @@
+{
+  "name": "cinebook-root",
+  "version": "1.0.0",
+  "description": "CineBook - Premium Movie Ticket Booking MERN Application",
+  "scripts": {
+    "dev": "npm --prefix client run dev",
+    "client": "npm --prefix client run dev",
+    "server": "npm --prefix server run start",
+    "seed": "npm --prefix server run seed",
+    "db:view": "npm --prefix server run db:view",
+    "test": "npm --prefix server run test"
+  }
+}
